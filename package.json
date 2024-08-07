@@ -1,0 +1,24 @@
+{
+  "name": "image-converter",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . ImageConverter --platform=win32 --arch=x64 --out=release-builds --icon=assets/icon.png --overwrite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Image Convertor application using Electron",
+  "dependencies": {
+    "electron": "^31.3.1",
+    "electron-builder": "^24.13.3",
+    "image-to-ico": "^1.0.1",
+    "jimp": "^0.22.12",
+    "materialize-css": "^1.0.0",
+    "snackbarjs": "^1.1.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^17.1.2"
+  }
+}
